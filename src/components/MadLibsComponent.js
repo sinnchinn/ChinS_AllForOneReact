@@ -38,15 +38,15 @@ export default function MadLibsComponent() {
 
                 <div style={{ display: "flex", justifyContent: "space-evenly"}}>
                     <Row >
-                        <Col lg={4} md={4} >
+                        <Col lg={4} md={4} sm={4}>
                             <input onChange={(e) => setName(e.target.value)} className='inputStyle' type='text' placeholder='your name'></input>
                         </Col>
 
-                        <Col lg={4} md={4} >
+                        <Col lg={4} md={4} sm={4}>
                             <input onChange={(e) => setAdj1(e.target.value)} className='inputStyle' type='text' placeholder='adjective 1'></input>
                         </Col>
 
-                        <Col lg={4} md={4} >
+                        <Col lg={4} md={4} sm={4}>
                             <input onChange={(e) => setVerb1(e.target.value)} className='inputStyle' type='text' placeholder='verb 1'></input>
                         </Col>
                     </Row>
@@ -55,16 +55,16 @@ export default function MadLibsComponent() {
                 <div style={{ display: "flex", justifyContent: "space-evenly" }}>
 
                     <Row>
-                        <Col lg={4} md={4} sm={1}>
+                        <Col lg={4} md={4} sm={12}>
                             <input onChange={(e) => setNoun1(e.target.value)} className='inputStyle' type='text' placeholder='noun 1'></input>
                         </Col>
 
-                        <Col lg={4} md={4} sm={1}>
+                        <Col lg={4} md={4} sm={12}>
                             <input onChange={(e) => setVerb2(e.target.value)} className='inputStyle' type='text' placeholder='verb 2'></input>
 
                         </Col>
 
-                        <Col lg={4} md={4} sm={1}>
+                        <Col lg={4} md={4} sm={12}>
                             <input onChange={(e) => setNoun2(e.target.value)} className='inputStyle' type='text' placeholder='noun 2'></input>
 
                         </Col>
@@ -111,7 +111,7 @@ export default function MadLibsComponent() {
                 </div>
 
                 <div>
-                    <Button as={Link} to={"/"} style={{ width: "150px", marginBottom: "20px", marginLeft: "30px" }} className='madlibEnterBtn'> home </Button>
+                    <Button as={Link} to={"/"} style={{ width: "150px", marginLeft: "30px" }} className='madlibEnterBtn'> home </Button>
                 </div>
 
             </header>
