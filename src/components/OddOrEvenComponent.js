@@ -18,7 +18,7 @@ export default function OddOrEvenComponent() {
 
   return (
     <div>
-      <header style={{ backgroundImage: `url(${oddBg})`, backgroundPosition:"bottom", backgroundRepeat:"no-repeat", backgroundSize:"cover", height:"100vh"}}>
+      <header style={{ backgroundImage: `url(${oddBg})`, backgroundPosition:"bottom", backgroundRepeat:"no-repeat", backgroundSize:"cover", height:"130vh"}}>
             
             <div className='centerFlex' style={{marginLeft:"5px", marginRight:"5px"}}>
             <span style={{whiteSpace:"pre-wrap", textAlign:"center"}} className='oddEvenResult'>enter a number and we'll tell you if it's odd or even! {"\n"}

@@ -19,7 +19,7 @@ export default function Add2NumsComponent() {
 
   return (
     <div>
-      <header style={{ backgroundImage: `url(${twoNumsBg})`, backgroundPosition: "bottom", backgroundRepeat: "no-repeat", backgroundSize: "cover", height:"100vh"}}>
+      <header style={{ backgroundImage: `url(${twoNumsBg})`, backgroundPosition: "bottom", backgroundRepeat: "no-repeat", backgroundSize: "cover", height:"130vh"}}>
                 
                 <div className='centerFlex' style={{marginLeft:"5px", marginRight:"5px"}}>
                     <span style={{whiteSpace:"pre-wrap", textAlign:"center"}} className='addResult'>input two numbers and we'll give you the sum!{"\n"}{result}</span>

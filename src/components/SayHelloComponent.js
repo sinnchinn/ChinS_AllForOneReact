@@ -19,7 +19,7 @@ export default function SayHelloComponent() {
 
     return (
         <div>
-            <header style={{ backgroundImage: `url(${sayHelloBg})`, height:"100vh"}}>
+            <header style={{ backgroundImage: `url(${sayHelloBg})`, height:"130vh"}}>
 
                 <div className='centerFlex' style={{marginLeft:"5px", marginRight:"5px"}}>
 

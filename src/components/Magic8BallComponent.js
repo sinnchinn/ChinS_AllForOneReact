@@ -18,7 +18,7 @@ export default function Magic8BallComponent() {
 
   return (
     <div>
-      <header style={{ backgroundImage: `url(${magicBg})`, backgroundPosition:"bottom", backgroundRepeat:"no-repeat", backgroundSize:"cover", height:"100vh"}}>
+      <header style={{ backgroundImage: `url(${magicBg})`, backgroundPosition:"bottom", backgroundRepeat:"no-repeat", backgroundSize:"cover", height:"130vh"}}>
             
             <div className='centerFlex' style={{marginLeft:"5px", marginRight:"5px"}}>
             <span style={{whiteSpace:"pre-wrap", textAlign:"center"}} className='restPickerResult'>ask us a yes or no question and we'll tell you what you want to hear! {"\n"}{result}</span>

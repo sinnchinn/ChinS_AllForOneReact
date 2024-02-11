@@ -19,7 +19,7 @@ export default function Reverse123Component() {
   return (
     <div>
     
-        <header style={{ backgroundImage: `url(${rev123Bg})`, backgroundPosition:"bottom", backgroundRepeat:"no-repeat", backgroundSize:"cover", height:"100vh"}}>
+        <header style={{ backgroundImage: `url(${rev123Bg})`, backgroundPosition:"bottom", backgroundRepeat:"no-repeat", backgroundSize:"cover", height:"130vh"}}>
             
             <div className='centerFlex' style={{marginLeft:"5px", marginRight:"5px"}}>
             <span style={{whiteSpace:"pre-wrap", textAlign:"center"}} className='rev123Result'>input a sequence of numbers and we'll reverse it for you! {"\n"}

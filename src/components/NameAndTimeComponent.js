@@ -19,7 +19,7 @@ export default function NameAndTimeComponent() {
 
   return (
     <div>
-      <header style={{ backgroundImage: `url(${nameTimeBg})`, backgroundPosition:"bottom", height:"100vh"}}>
+      <header style={{ backgroundImage: `url(${nameTimeBg})`, backgroundPosition:"bottom", height:"130vh", backgroundRepeat:"repeat"}}>
             
             <div className='centerFlex' style={{marginLeft:"5px", marginRight:"5px"}}>
             <span style={{whiteSpace:"pre-wrap", textAlign:"center"}} className='nameAndTimeResult'>input your name and what time you woke up! {"\n"}

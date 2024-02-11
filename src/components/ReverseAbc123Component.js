@@ -18,7 +18,7 @@ export default function ReverseAbc123Component() {
 
   return (
     <div>
-      <header style={{ backgroundImage: `url(${revAbc123Bg})`, backgroundPosition:"bottom", backgroundRepeat:"no-repeat", backgroundSize:"cover", height:"100vh"}}>
+      <header style={{ backgroundImage: `url(${revAbc123Bg})`, backgroundPosition:"bottom", backgroundRepeat:"no-repeat", backgroundSize:"cover", height:"130vh"}}>
             
             <div className='centerFlex' style={{marginLeft:"5px", marginRight:"5px"}}>
             <span style={{whiteSpace:"pre-wrap", textAlign:"center"}} className='revAbcResult'>input a sequence of numbers and letters and we'll reverse it for you!

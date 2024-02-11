@@ -19,7 +19,7 @@ export default function GreaterOrLessComponent() {
 
     return (
         <div>
-            <header style={{ backgroundImage: `url(${greaterBg})`, backgroundPosition: "bottom", backgroundRepeat: "no-repeat", backgroundSize: "cover", height:"100vh" }}>
+            <header style={{ backgroundImage: `url(${greaterBg})`, backgroundPosition: "bottom", backgroundRepeat: "no-repeat", backgroundSize: "cover", height:"130vh" }}>
                 
                 <div className='centerFlex' style={{marginLeft:"5px", marginRight:"5px"}}>
                     <span style={{whiteSpace:"pre-wrap", textAlign:"center"}} className='greaterResult'>input two numbers and we'll tell you which is greater than or less than!{"\n"}{result}</span>

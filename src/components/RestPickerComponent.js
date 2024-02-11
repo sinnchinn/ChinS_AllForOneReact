@@ -18,7 +18,7 @@ export default function RestPickerComponent() {
 
   return (
     <div>
-      <header style={{ backgroundImage: `url(${restarauntBg})`, backgroundPosition:"bottom", backgroundRepeat:"no-repeat", backgroundSize:"cover", height:"100vh"}}>
+      <header style={{ backgroundImage: `url(${restarauntBg})`, backgroundPosition:"bottom", backgroundRepeat:"no-repeat", backgroundSize:"cover", height:"130vh"}}>
             
             <div className='centerFlex' style={{marginLeft:"5px", marginRight:"5px"}}>
             <span style={{whiteSpace:"pre-wrap", textAlign:"center"}} className='restPickerResult'>input asian, chicken, or italian and we'll tell you where you should eat based on those categories! {"\n"}

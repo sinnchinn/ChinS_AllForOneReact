@@ -17,7 +17,7 @@ export default function HomePageComponent() {
           <Container>
             <Row>
               <Col>
-                <div style={{display:"flex", justifyContent:"center", marginLeft:"5px", marginRight:"5px"}}>
+                <div style={{display:"flex", justifyContent:"center", marginLeft:"5px", marginRight:"5px", height: "130vh" }}>
                 <Badge md={10} sm={1} className='homeBadge'>
                   ALL FOR ONE
                 </Badge>
