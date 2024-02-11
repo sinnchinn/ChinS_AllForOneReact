@@ -13,16 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +26,306 @@
     transform: rotate(360deg);
   }
 }
+
+.homeBadge {
+  color: black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 45px;
+  background-color: rgba(249, 179, 216, 0.5) !important;
+  border: 5px solid rgba(245, 184, 195, 1);
+  border-radius: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 150px;  
+}
+
+.homeBtn {
+  color: black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 30px;
+  background-color: rgba(249, 179, 216, 0.5) !important;
+  border: 5px solid rgba(245, 184, 195, 1);
+  border-radius: 10px;
+  width: 300px;
+  font-weight: bold;
+}
+
+.homeBtn:hover {
+  color: black;
+  background-color: rgba(245, 184, 195, 1) !important;
+  border: 5px solid rgba(245, 184, 195, 1) !important;
+}
+
+.hidden {
+  display: block;
+}
+
+.sayHelloResult {
+  color: black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 50px;
+  background-color: white;
+  border: 5px solid rgba(245, 177, 166, 1);
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.centerFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.inputStyle {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.sayHelloEnterBtn {
+  color: black;
+  font-size: 30px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  background-color: rgba(249, 207, 195, 1);
+  border: 5px solid rgba(245, 177, 166, 1);
+  margin-top: 30px;
+}
+
+.sayHelloEnterBtn:hover {
+  border: 5px solid rgba(245, 177, 166, 1) !important;
+  background-color: rgba(245, 177, 166, 1) !important;
+  color: black;
+}
+
+.rev123Result {
+  color: black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 50px;
+  background-color: white;
+  border: 5px solid rgba(172, 197, 136, 1);
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.rev123EnterBtn {
+  color: black;
+  font-size: 30px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  background-color: rgba(219, 229, 177, 1);
+  border: 5px solid rgba(172, 197, 136, 1);
+  margin-top: 30px;
+}
+
+.rev123EnterBtn:hover {
+  background-color: rgba(172, 197, 136, 1) !important;
+  border: 5px solid rgba(172, 197, 136, 1) !important;
+  color: black;
+}
+
+.revAbcResult {
+  color: black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 50px;
+  background-color: white;
+  border: 5px solid rgba(244, 215, 171, 1);
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.revAbcEnterBtn {
+  color: black;
+  font-size: 30px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  background-color: rgba(254, 251, 210, 1);
+  border: 5px solid rgba(244, 215, 171, 1);
+  margin-top: 30px;
+}
+
+.revAbcEnterBtn:hover {
+  background-color: rgba(244, 215, 171, 1) !important;
+  border: 5px solid rgba(244, 215, 171, 1) !important;
+  color: black;
+}
+
+.nameAndTimeResult {
+  color: black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 50px;
+  background-color: white;
+  border: 5px solid rgba(255, 214, 214, 1);
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.nameAndTimeEnterBtn {
+  color: black;
+  font-size: 30px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  background-color: rgba(255, 236, 236, 1);
+  border: 5px solid rgba(255, 214, 214, 1);
+  margin-top: 30px;
+}
+
+.nameAndTimeEnterBtn:hover {
+  background-color: rgba(255, 214, 214, 1) !important;
+  border: 5px solid rgba(255, 214, 214, 1) !important;
+  color: black;
+}
+
+.oddEvenResult {
+  color: black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 50px;
+  background-color: white;
+  border: 5px solid rgba(254, 227, 120, 1);
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.oddEvenEnterBtn {
+  color: black;
+  font-size: 30px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  background-color: rgba(255, 240, 182, 1);
+  border: 5px solid rgba(254, 227, 120, 1);
+  margin-top: 30px;
+}
+
+.oddEvenEnterBtn:hover {
+  background-color: rgba(254, 227, 120, 1) !important;
+  border: 5px solid rgba(254, 227, 120, 1) !important;
+  color: black;
+}
+
+.restPickerResult {
+  color: black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 50px;
+  background-color: white;
+  border: 5px solid rgba(255, 244, 130, 1);
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.restPickerEnterBtn {
+  color: black;
+  font-size: 30px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  background-color: rgba(255, 251, 195, 1);
+  border: 5px solid rgba(255, 244, 130, 1);
+  margin-top: 30px;
+}
+
+.restPickerEnterBtn:hover {
+  background-color: rgba(254, 227, 120, 1) !important;
+  border: 5px solid rgba(254, 227, 120, 1) !important;
+  color: black;
+}
+
+.greaterResult {
+  color: black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 50px;
+  background-color: white;
+  border: 5px solid rgba(236, 85, 143, 1);
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.greaterEnterBtn {
+  color: black;
+  font-size: 30px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  background-color: rgba(244, 160, 192, 1);
+  border: 5px solid rgba(236, 85, 143, 1);
+  margin-top: 30px;
+}
+
+.greaterEnterBtn:hover {
+  background-color: rgba(236, 85, 143, 1) !important;
+  border: 5px solid rgba(236, 85, 143, 1) !important;
+  color: black;
+}
+
+.addResult {
+  color: black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 50px;
+  background-color: white;
+  border: 5px solid rgba(191, 172, 210, 1);
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.addEnterBtn {
+  color: black;
+  font-size: 30px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  background-color: rgba(223, 204, 247, 1);
+  border: 5px solid rgba(191, 172, 210, 1);
+  margin-top: 30px;
+}
+
+.addEnterBtn:hover {
+  background-color: rgba(191, 172, 210, 1) !important;
+  border: 5px solid rgba(191, 172, 210, 1) !important;
+  color: black;
+}
+
+.madlibResult {
+  color: black;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 50px;
+  background-color: white;
+  border: 5px solid rgba(249, 175, 178, 1);
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.madlibEnterBtn {
+  color: black;
+  font-size: 30px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  background-color: rgba(255, 210, 212, 1);
+  border: 5px solid rgba(249, 175, 178, 1);
+  margin-top: 30px;
+}
+
+.madlibEnterBtn:hover {
+  background-color: rgba(249, 175, 178, 1) !important;
+  border: 5px solid rgba(249, 175, 178, 1) !important;
+  color: black;
+}
+
+
+
+
+
